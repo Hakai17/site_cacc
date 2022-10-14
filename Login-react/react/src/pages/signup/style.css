@@ -1,0 +1,16 @@
+.register-block{
+    color: #fff;
+    background-color: darkblue;
+    width: 800px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px lightblue;
+}
+
+.register-block h2{
+    margin: 5px;
+}

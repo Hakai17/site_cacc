@@ -1,0 +1,25 @@
+.home {
+    background-color: darkblue;
+    color: white;
+    width: 800px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px lightblue;
+}
+
+.link-block .link {
+    color: white;
+    margin: 10px;
+    font-weight: 600;
+    font-size: 1.1em;
+}
+
+.register {
+    text-decoration: none;
+    background-color: blue;
+    padding: 0.5em;
+}
