@@ -24,15 +24,17 @@ export default function Login(){
     return (
         <div className="login-block">
             <h2>Login</h2>
-            <div className="form">
-                <input type="text" placeholder="E-mail"
-                    value={email}
-                    onChange={e => setEmail(e.target.value)}/>
-                <input type="password" placeholder="Senha"
-                    value={password}
-                    onChange={e => setPassword(e.target.value)}/>
-                <button type="submit"
-                    onClick={handleLogin}>Confirmar</button>
+            <div className="login">
+                <div className="form">
+                    <input type="text" placeholder="E-mail"
+                        value={email}
+                        onChange={e => setEmail(e.target.value)}/>
+                    <input type="password" placeholder="Senha"
+                        value={password}
+                        onChange={e => setPassword(e.target.value)}/>
+                    <button type="submit"
+                        onClick={handleLogin}>Confirmar</button>
+                </div>
             </div>
             <Link to={'/register'}>Crie sua conta</Link>
         </div>
