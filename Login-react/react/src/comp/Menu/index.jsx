@@ -14,6 +14,12 @@ export default function Menu() {
          <li className={styles.menu__item}>
           <a href="/register">Cadastre-se</a>
          </li>
+         <li className={styles.menu__item}>
+          <a href='/'>Horários</a>
+         </li>
+         <li className={styles.menu__item}>
+          <a href='/'>Quem somos</a>
+         </li>
       </ul>
     </nav>
   )

@@ -12,11 +12,10 @@ export default function Home() {
     <main>  
         <section className={styles.principal}>
           <Menu />
-          <div className={styles.principal__imagem}>
-            <h1>Centro Academico de Ciências da Computação</h1>    
+          <div className={styles.principal__imagem}>     
             <img src={banner} alt="Centro academico" />
           </div>
-          </section>
+        </section>     
      </main>
      <Bottom />
     </>

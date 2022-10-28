@@ -1,7 +1,6 @@
 import React from "react";
 import youtube from "./youtube.svg";
 import instagram from "./instagram.svg";
-import email from "./email.svg";
 import styles from "./Bottom.module.scss";
 
 export default function Bottom() {
@@ -22,14 +21,16 @@ export default function Bottom() {
         >
           <img src={instagram} alt="ícone do instagram" />
         </a>
+      </div>
+      <div>
         <a
           href="mailto:cacc@maracanau.ifce.edu.br"
           target="_blank"
           rel="noreferrer"
-        >
-          <img src={email} alt="ícone do instagram" />
+        >  
+          <p>Contato: cacc@maracanau.ifce.edu.br</p>
         </a>
-      </div>
+      </div> 
       <p>VOID</p>
     </footer>
   );
