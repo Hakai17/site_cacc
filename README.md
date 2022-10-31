@@ -1,4 +1,3 @@
-# pooproject
 <h1>Projeto de POO</h1>
 
 <p>Blog para noticiar os acontecimentos que, em geral, envolve o CACC do campus IFCE-Maracanaú</p>
