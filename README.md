@@ -1,7 +1,6 @@
 # pooproject
-# Login-react
-<p>Tela de Login, home e cadastro</p>
+<h1>Projeto de POO</h1>
 
-<h2>Como iniciar</h2>
-<p>Entre na pasta "back-end" e use o comando "npm install", faça o mesmo na pasta "react-crud"</p>
-<p>Após isso dentro da pasta "back-end" use "npm run dev" e dentro de "react-crud" use "npm start"</p>
+<p>Blog para noticiar os acontecimentos que, em geral, envolve o CACC do campus IFCE-Maracanaú</p>
+<p>Entre as noticias, tambem teremos um sistema de cadastro e login para poderem comentar sobre as noticias, tirar dúvidas e etc</p>
+<p>Teremos os horários das aulas, entrega de carteirinhas, xerox e jardineira</p>
