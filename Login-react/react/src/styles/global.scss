@@ -5,17 +5,19 @@ body {
   margin: 0;
   padding: 0;
   height: 100vh;
+  width: 100%;
   background-image: linear-gradient($azul-escuro, $azul-claro);
   box-sizing: border-box;
 }
 
 body::-webkit-scrollbar{
   width: 4px;
+  height: 6px;
 }
 
 body::-webkit-scrollbar-thumb{
-  background-color: #154580;
-  border-radius: 20px;
+  background-color: black;
+  border-radius: 22px;
 }
 
 body::-webkit-scrollbar-track{
@@ -23,17 +25,24 @@ body::-webkit-scrollbar-track{
 }
 
 @font-face {
-  font-family: "GandhiSansRegular";
-  src: local("GandhiSansRegular"),
-    url("../assets/fontes/GandhiSans-Regular.otf") format("truetype");
+  font-family: "Bebas Neue Bold 700";
+  src: local("Bebas Neue Bold 700"),
+    url("../assets/fontes/Bebas Neue Bold 700.otf") format("truetype");
   font-weight: 500;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "GandhiSansBold";
-  src: local("GandhiSansBold"),
-    url("../assets/fontes/GandhiSans-Bold.otf") format("truetype");
+  font-family: "Lato-Bold";
+  src: local("Lato-Bold"),
+    url("../assets/fontes/Lato-Bold.otf") format("truetype");
   font-weight: 700;
   font-display: swap;
+}
+  @font-face {
+    font-family: "Lato-Regular";
+    src: local("Lato-Regular"),
+      url("../assets/fontes/Lato-Regular.otf") format("truetype");
+    font-weight: 700;
+    font-display: swap;
 }

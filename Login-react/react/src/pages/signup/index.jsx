@@ -2,6 +2,7 @@ import React, { useContext, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { AuthContext } from '../../context/Auth/AuthContext'
 import './style.css'
+import Bottom from '../../comp/Bottom';
 
 export default function Signup() {
     const auth = useContext(AuthContext)
@@ -24,22 +25,23 @@ export default function Signup() {
 
     return (
         <div className="register-block">
-            <h2>Cadastro</h2>
+            <h2>CADASTRO</h2>
             <div className="signup">
                 <div className="form">
-                    <input type="text" placeholder="Nome"
-                        
+                    <input type="text" placeholder="NOME"
+
                         onChange={e => setName(e.target.value)}/>
-                    <input type="text" placeholder="E-mail"
-                        
+                    <input type="text" placeholder="EMAIL"
+
                         onChange={e => setEmail(e.target.value)}/>
-                    <input type="password" placeholder="Senha"
-                        
+                    <input type="password" placeholder="SENHA"
+
                         onChange={e => setPassword(e.target.value)}/>
                     <button
-                        onClick={handleRegister}>Cadastre-se</button>
+                        onClick={handleRegister}>CADASTRE-SE</button>
                 </div>
             </div>
+            <Bottom />
         </div>
     )
 }

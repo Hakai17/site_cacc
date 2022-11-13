@@ -2,6 +2,7 @@ import React, { useContext, useState } from "react";
 import { AuthContext } from '../../context/Auth/AuthContext'
 import { useNavigate, Link } from 'react-router-dom'
 import './style.css'
+import Bottom from '../../comp/Bottom';
 
 export default function Login(){
     const auth = useContext(AuthContext)
@@ -22,21 +23,24 @@ export default function Login(){
     }
 
     return (
+        <>
         <div className="login-block">
-            <h2>Login</h2>
+            <h2>LOGIN</h2>
             <div className="login">
                 <div className="form">
-                    <input type="text" placeholder="E-mail"
+                    <input type="text" placeholder="EMAIL"
                         value={email}
                         onChange={e => setEmail(e.target.value)}/>
-                    <input type="password" placeholder="Senha"
+                    <input type="password" placeholder="SENHA"
                         value={password}
                         onChange={e => setPassword(e.target.value)}/>
                     <button type="submit"
-                        onClick={handleLogin}>Confirmar</button>
+                        onClick={handleLogin}>CONFIRMAR</button>
                 </div>
             </div>
-            <Link to={'/register'}>Crie sua conta</Link>
+            <Link to={'/register'}>CRIE SUA CONTA</Link>
         </div>
+        <Bottom />
+        </>
     )
 }

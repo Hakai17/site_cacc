@@ -27,10 +27,10 @@ export default function Bottom() {
           href="mailto:cacc@maracanau.ifce.edu.br"
           target="_blank"
           rel="noreferrer"
-        >  
-          <p>Contato: cacc@maracanau.ifce.edu.br</p>
+        >
+          <p>cacc@maracanau.ifce.edu.br</p>
         </a>
-      </div> 
+      </div>
       <p>VOID</p>
     </footer>
   );
