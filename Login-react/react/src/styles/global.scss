@@ -4,10 +4,9 @@
 body {
   margin: 0;
   padding: 0;
-  height: 100vh;
+  height: 700px;
   width: 100%;
   background-image: linear-gradient($azul-escuro, $azul-claro);
-  box-sizing: border-box;
 }
 
 body::-webkit-scrollbar{
@@ -16,7 +15,7 @@ body::-webkit-scrollbar{
 }
 
 body::-webkit-scrollbar-thumb{
-  background-color: black;
+  background-color: rgba(2, 2, 87, 0.473);
   border-radius: 22px;
 }
 

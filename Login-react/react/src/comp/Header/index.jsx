@@ -21,10 +21,7 @@ export default function Header(){
          </li>
          <li className={styles.menu__item}>
           <a href="/">NOTÍCIAS</a>
-         </li>
-         <li className={styles.menu__item}>
-          <a href='/login'>LOGIN</a>
-         </li>
+          </li>
          <li className={styles.menu__item}>
           <a href='/'>HOME</a>
          </li>

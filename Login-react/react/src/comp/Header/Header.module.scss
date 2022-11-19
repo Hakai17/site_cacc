@@ -42,7 +42,7 @@
 
       &::placeholder {
         font-size: 1rem;
-        font-family: "GandhiSansRegular";
+        font-family: "Lato-Regular";
       }
     }
 
@@ -55,14 +55,13 @@
     display: inline-block;
     width: fit-content;
     width: 100%;
+    height: 100%;
 
     &__list {
       margin: 0;
-      width: 100%;
+      width: 97%;
+      height: 100%;
       list-style: none;
-      display: inline-block;
-      flex-direction: column;
-      justify-content: flex-start;
     }
 
     &__item {

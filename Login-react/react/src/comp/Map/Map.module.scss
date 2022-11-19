@@ -1,0 +1,36 @@
+.principal{
+    color: white;
+    background-color: #0E3362;
+    height: 370px;
+    text-align: center;
+    position: absolute;
+    bottom: 10;
+
+    h1 {
+        font-family: 'Bebas Neue Bold 700.otf';
+        padding-top: 10px;
+    }
+
+    hr {
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+
+    h2 {
+        font-family: 'Lato-Bold';
+        font-size: 20px;
+
+    }
+
+    h3 {
+        font-family: 'Monocraft';
+        padding-top: 10px;
+        font-size: 12px;
+    }
+
+    h4 {
+        font-family: 'Alergreya';
+        color: white;
+        font-size: 10px;
+    }
+}
