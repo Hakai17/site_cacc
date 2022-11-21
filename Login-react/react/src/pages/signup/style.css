@@ -25,16 +25,18 @@
 
 .form input{
     background-color: white;
-    border-radius: 1px;
+    border-radius: 6px;
     font-size: 1em;
     padding: 1em;
     font-weight: 600;
     width: 300px;
+    height: 5px;
     color: black; 
 }
 
 .form button{
     border: none;
+    border-radius: 6px;
     background-color: #7b78e5;
     color: white;
     font-size: 1em;

@@ -6,6 +6,7 @@ import Home from './pages/home';
 import Login from './pages/login';
 import Signup from './pages/signup';
 import Private from './pages/inside';
+import News from './pages/news';
 import "./styles/global.scss";
 
 function App() {
@@ -18,6 +19,8 @@ function App() {
             <Route path='/login' element={<Login />}/>
             <Route path='/register' element={<Signup />}/>
             <Route path='/private' element={<RequireAuth><Private/></RequireAuth>}/>
+            <Route path='/private' element={<RequireAuth><Private/></RequireAuth>}/>
+            <Route path='/news' element={<News />}/>
           </Routes>
         </BrowserRouter>
       </AuthProvider>

@@ -1,6 +1,8 @@
 import React, { useContext, useState } from "react";
 import { AuthContext } from '../../context/Auth/AuthContext'
 import { useNavigate, Link } from 'react-router-dom'
+import Bottom from "../../comp/Bottom";
+
 import './style.css'
 
 export default function Login(){
@@ -22,6 +24,7 @@ export default function Login(){
     }
 
     return (
+        <>
         <div className="login-block">
             <h2>Login</h2>
             <div className="login">
@@ -37,6 +40,9 @@ export default function Login(){
                 </div>
             </div>
             <Link to={'/register'}>Crie sua conta</Link>
+            <Link to={'/news'}>Noticias</Link>
         </div>
+        <Bottom/>
+        </>
     )
 }
