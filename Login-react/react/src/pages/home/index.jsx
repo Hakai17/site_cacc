@@ -1,8 +1,8 @@
 import styles from "./Home.module.scss";
 
-import Header from "../../comp/Header";
-import Bottom from "../../comp/Bottom";
-import Map from "../../comp/Map";
+import Header from "../../components/Header";
+import Bottom from "../../components/Bottom";
+import Map from "../../components/Map";
 
 export default function Home() {
   return (

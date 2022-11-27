@@ -1,0 +1,36 @@
+.main {
+    text-align: center;
+
+    li {
+        display: inline-block;
+        justify-self: space-between;
+        padding-inline: 50px;
+        border-radius: 100%;
+    }
+
+    h1 {
+        color: white;
+        text-align: start;
+        padding-left: 5%;
+        font-family: 'Bebas Neue Bold 700';
+        font-size: 40px;
+    }
+
+    h2{
+        color: white;
+        font-family: 'Lato-Bold';
+        text-align: center;
+    }
+
+    a {
+        color: #0E3362;
+        font-size: 50%;
+    }
+
+    img {
+        height: 250px;
+        display: block;
+        border-radius: 50%;
+        background-color: grey;
+    }
+}

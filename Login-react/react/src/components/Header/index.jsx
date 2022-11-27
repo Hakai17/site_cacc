@@ -17,7 +17,7 @@ export default function Header(){
     <nav className={styles.menu}>
       <ul className={styles.menu__list}>
          <li className={styles.menu__item}>
-          <a href="/">HORÁRIOS</a>
+          <a href="/data">HORÁRIOS</a>
          </li>
          <li className={styles.menu__item}>
           <a href="/">NOTÍCIAS</a>
