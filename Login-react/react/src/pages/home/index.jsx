@@ -3,12 +3,27 @@ import styles from "./Home.module.scss";
 import Header from "../../components/Header";
 import Bottom from "../../components/Bottom";
 import Map from "../../components/Map";
+import home from "../../assets/img/home.png";
 
 export default function Home() {
   return (
     <>
     <Header />
     <main>
+        <section className={styles.image}>
+          <div>
+            <h1>BEM VINDOS!</h1>
+            <img src={home} alt="home" />
+            <a href="/">
+            <button type="button">CONHEÇA O CAMPUS</button>
+            </a>
+          </div>
+        </section>
+        <section className={styles.news}>
+          <div>
+            <h1>ÚLTIMAS NOTÍCIAS</h1>
+          </div>
+        </section>
         <section className={styles.principal}>
           <div>
             <h1>QUEM SOMOS</h1>

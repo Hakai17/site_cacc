@@ -1,12 +1,12 @@
 import styles from './Data.module.scss'
 
-import Header from '../../components/Header'
-import Bottom from '../../components/Bottom'
-import Aula from './aula.png'
-import Jardineira from './jardineira.png'
-import Xerox from './xerox.png'
-import jardineira from './jardineirahorario.pdf'
-import aula from './aula.pdf'
+import Header from '../../components/Header';
+import Bottom from '../../components/Bottom';
+import Aula from '../../assets/img/aula.png';
+import Jardineira from '../../assets/img/jardineira.png';
+import Xerox from '../../assets/img/xerox.png';
+import jardineira from '../../assets/pdf/jardineirahorario.pdf';
+import aula from '../../assets/pdf/aula.pdf';
 //import xerox from './xerox.pdf'
 
 export default function Data() {
