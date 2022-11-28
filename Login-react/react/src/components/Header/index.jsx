@@ -6,7 +6,9 @@ export default function Header(){
   return (
     <>
     <header className={styles.header}>
+      <a href='/'>
       <img src={logo} alt="Logo do c.a" />
+      </a>
       <h1>CENTRO ACADÊMICO DE CIÊNCIA DA COMPUTAÇÃO</h1>
       <div className={styles.header__container}>
         <input className={styles.header__input} type="text"

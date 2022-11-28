@@ -15,7 +15,7 @@ body::-webkit-scrollbar{
 }
 
 body::-webkit-scrollbar-thumb{
-  background-color: rgba(2, 2, 87, 0.473);
+  background-color: white;
   border-radius: 22px;
 }
 
@@ -38,10 +38,19 @@ body::-webkit-scrollbar-track{
   font-weight: 700;
   font-display: swap;
 }
-  @font-face {
+
+@font-face {
     font-family: "Lato-Regular";
     src: local("Lato-Regular"),
       url("../assets/fontes/Lato-Regular.otf") format("truetype");
     font-weight: 700;
     font-display: swap;
+}
+
+@font-face {
+  font-family: "Alegreya-Italic-400";
+  src: local("Alegreya-Italic-400"),
+    url("../assets/fontes/Alegreya-Italic-400.otf") format("truetype");
+  font-weight: 700;
+  font-display: swap;
 }

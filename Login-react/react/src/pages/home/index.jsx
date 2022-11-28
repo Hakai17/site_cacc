@@ -10,7 +10,7 @@ export default function Home() {
     <>
     <Header />
     <main>
-        <section className={styles.image}>
+      <section className={styles.image}>
           <div>
             <h1>BEM VINDOS!</h1>
             <img src={home} alt="home" />
