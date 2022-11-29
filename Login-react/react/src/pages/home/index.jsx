@@ -6,6 +6,7 @@ import Map from "../../components/Map";
 import home from "../../assets/img/home.png";
 
 export default function Home() {
+//   array = []
   return (
     <>
     <Header />
@@ -22,7 +23,10 @@ export default function Home() {
         <section className={styles.news}>
           <div>
             <h1>ÚLTIMAS NOTÍCIAS</h1>
-          </div>
+//               {array.map((value,index ), ()=>(
+//                 <Noticia titulo = {value.titulo}></Noticia>
+//               ))}
+          </div> 
         </section>
         <section className={styles.principal}>
           <div>
