@@ -5,8 +5,8 @@ import styles from "./Bottom.module.scss";
 
 export default function Bottom() {
   return (
-    <footer className={styles.Header}>
-      <div className={styles.Header__icon}>
+    <footer className={styles.Bottom}>
+      <div className={styles.Bottom__icon}>
         <a
           href="https://youtube.com/c/IFCEcampusdeMaracana%C3%BA"
           target="_blank"

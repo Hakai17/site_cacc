@@ -25,7 +25,7 @@ main {
       color: white;
       position: absolute;
       right: 41%;
-      bottom: 25%;
+      bottom: 30%;
       height: 8%;
       width: 18%;
     }
@@ -42,7 +42,7 @@ main {
   .principal {
     display: flex;
     background-color: white;
-    height: 250px;
+    height: max-content;
     position: relative;
     bottom: 0;
 
