@@ -22,7 +22,7 @@ export default function Header(){
           <a href="/data">HORÁRIOS</a>
          </li>
          <li className={styles.menu__item}>
-          <a href="/">NOTÍCIAS</a>
+          <a href="/news">NOTÍCIAS</a>
           </li>
          <li className={styles.menu__item}>
           <a href='/'>HOME</a>

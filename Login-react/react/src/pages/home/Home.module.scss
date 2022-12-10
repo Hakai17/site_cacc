@@ -36,6 +36,34 @@ main {
       text-align: center;
       color: white;
       font-family: 'Lato-Bold';
+      font-size: 30px;
+    }
+
+    ul {
+      list-style: none;
+      display: inline-block;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: 250px;
+      padding: 0 40px 0px 140px;
+    }
+
+    img {
+      width: 21%;
+      margin-left: 10%;
+    }
+
+    a {
+      color: white;
+    }
+
+    p {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      font-family: "Lato-Regular";
+      font-size: 18px;
     }
   }
 
@@ -50,13 +78,15 @@ main {
       text-align: center;
       color: #0E3362;
       font-family: 'Lato-Bold';
+      font-size: 35px;
     }
 
     p {
       color: #09274E;
       margin-left: 40px;
       margin-right: 40px;
-      font-size: 20px;
+      font-size: 24px;
+      font-family: "Lato-Regular";
     }
 
     h2 {
