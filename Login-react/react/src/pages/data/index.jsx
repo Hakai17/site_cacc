@@ -7,7 +7,7 @@ import Jardineira from '../../assets/img/jardineira.png';
 import Xerox from '../../assets/img/xerox.png';
 import jardineira from '../../assets/pdf/jardineirahorario.pdf';
 import aula from '../../assets/pdf/aula.pdf';
-//import xerox from './xerox.pdf'
+import xerox from '../../assets/pdf/xerox.pdf';
 
 export default function Data() {
     return(
@@ -29,7 +29,7 @@ export default function Data() {
                 </a>
                </li>
                <li>
-                <a href='/' alt=''>
+                <a href={xerox} download={xerox}>
                     <img src={Xerox} alt='logo3' />
                     <h2>XEROX</h2>
                 </a>
