@@ -1,7 +1,6 @@
 import styles from "./Home.module.scss";
 import axios from "axios";
 import { useState } from 'react';
-import { useParams } from 'react';
 import { useEffect } from "react";
 import Header from "../../components/Header";
 import Bottom from "../../components/Bottom";
@@ -9,7 +8,7 @@ import Map from "../../components/Map";
 import home from "../../assets/img/home.png";
 import img1 from "../../assets/img/image1.png";
 import img2 from "../../assets/img/image2.png";
-import img3 from "../../assets/img/image4.png";
+import img4 from "../../assets/img/image4.png";
 
 
 export default function Home() {
@@ -18,7 +17,7 @@ export default function Home() {
 
   const [data, setData]=useState([]);
 
-  const newsGet = async()=>{
+  const newsGet = async(titulo)=>{
       await axios.get(baseUrl)
       .then(response => {
         setData(response.data);
@@ -37,20 +36,16 @@ export default function Home() {
     <main>
       <section className={styles.image}>
           <div>
-            <h1>BEM VINDOS!</h1>
             <img src={home} alt="home" />
-            <a href="/">
-            <button type="button">CONHEÇA O CAMPUS</button>
-            </a>
           </div>
         </section>
         <section className={styles.news}>
           <div>
             <h1>ÚLTIMAS NOTÍCIAS</h1>
             <div>
-              <img src={img2} alt="imagem2" />
-              <img src={img3} alt="imagem3" />
-              <img src={img1} alt="imagem1" />
+              <img src={img2} alt="comsolid" />
+              <img src={img4} alt="brasil" />
+              <img src={img1} alt="ministerio" />
             </div>
             <nav>
               {data.map(news=>(
