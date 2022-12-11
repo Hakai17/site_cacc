@@ -29,29 +29,20 @@ main {
 
     ul {
       list-style: none;
-      display: inline-block;
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      max-width: 250px;
-      padding: 0 40px 0px 140px;
     }
 
     img {
       width: 21%;
-      margin-left: 10%;
+      margin-left: 9%;
+    }
+
+    li {
+      display: inline-block;
+      padding: 0px 45px 0 150px;
     }
 
     a {
       color: white;
-    }
-
-    p {
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      font-family: "Lato-Regular";
-      font-size: 18px;
     }
   }
 

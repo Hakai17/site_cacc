@@ -24,18 +24,10 @@
 .nav {
     ul {
         list-style: none;
-        display: inline-block;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        max-width: 250px;
-        padding: 0 120px 0px 80px;
     }
 
-    p {
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        font-size: 20px;
-      }
+    li {
+        display: inline-block;
+        padding: 0 135px 0 100px;
+    }
 }

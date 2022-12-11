@@ -48,15 +48,17 @@ export default function Home() {
               <img src={img1} alt="ministerio" />
             </div>
             <nav>
-              {data.map(news=>(
-                <ul key={news.id}>
-                  <li>
-                    <a href="/news">
-                      <p>{news.titulo}</p>
-                    </a>
-                  </li>
-                </ul>
-                ))}
+              <ul>
+                <li>
+                  <a href="/news1">COMSOLID: SIC 2022 </a>
+                </li>
+                <li>
+                  <a href="/news2">COPA DO MUNDO INFLUENCIA R.A</a>
+                </li>
+                <li>
+                  <a href='/news3'>BLOQUEIO ORÇAMENTAL</a>
+                </li>
+              </ul>
             </nav>
           </div>
         </section>
@@ -64,11 +66,7 @@ export default function Home() {
           <div>
             <h1>QUEM SOMOS</h1>
             <p>Entidade estudantil que representa os discentes do curso Bacharelado em Ciência da Computação do IFCE Campus Maracanaú. Cabe a nós representá-los dentro e fora do instituto, promovendo atividades políticas, culturais, sociais e científicas.</p>
-            <a
-              href="/who"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href="/who">
               <h2>Leia mais</h2>
             </a>
           </div>

@@ -35,20 +35,22 @@ export default function News () {
             <h1>NOTÍCIAS</h1>
         </div>
         <div className={styles.images}>
-            <img src={img1} alt="imagem1" />
-            <img src={img2} alt="imagem2" />
-            <img src={img3} alt="imagem3" />
+            <img src={img2} alt="comsolid" />
+            <img src={img3} alt="copa" />
+            <img src={img1} alt="ministerio" />
         </div>
         <nav className={styles.nav}>
-            {data.map(news=>(
-                <ul key={news.id}>
-                  <li>
-                    <a href="/news">
-                      <p>{news.titulo}</p>
-                    </a>
-                  </li>
-                </ul>
-                ))}
+            <ul>
+              <li>
+                <a href="/news1">COMSOLID: SIC 2022 </a>
+              </li>
+              <li>
+                <a href="/news2">COPA DO MUNDO INFLUENCIA R.A</a>
+              </li>
+              <li>
+                <a href='/news3'>BLOQUEIO ORÇAMENTAL</a>
+              </li>
+            </ul>
         </nav>
         <Bottom />
         </>
